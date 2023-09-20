@@ -6,3 +6,19 @@
   --md-primary-fg-color--dark:  #90030C;
   /* --md-text-font: "<font>"; */
 }
+.img-left {
+  float: left;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  padding-right: 2em;
+  width: 500px;
+}
+
+.img-right {
+  float: right;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  padding-left: 2em;
+  width: 500px;
+}
+

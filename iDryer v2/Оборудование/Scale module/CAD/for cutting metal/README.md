@@ -1,1 +1,0 @@
-[разработано](https://t.me/gungrel)
