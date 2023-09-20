@@ -24,7 +24,7 @@
 - управление вентилятором обдува камеры по ШИМ;
 - версия для работы с напряжением 24В(можно и 12В);
 - версия для работы с напряжением 220В;
-Дизайн платы размещены на [jlcpcb.com](https://oshwlab.com/svet_team/idryer)
+
 
 
 ## Особенности прошивок
@@ -34,6 +34,7 @@
   - нет поддержки серво
   - нет поддержки дополнительного ШИМ канала
   - не будет весов для катушек в сушилке
+  - нет поддержки версии
 - прошивка под ядро MiniCore
   - работает watch dog timer / в случае cбоя перезагрузит прошивку
   - [поддержка двух серв](https://t.me/iDryer/361)(используются для регулярного проветривания камеры)
@@ -55,16 +56,3 @@
 
 [группа в телеграмм :fontawesome-solid-paper-plane:](https://t.me/iDryer){ .md-button }
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-* Запуск сервера mkdocs serve
-* https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
-* стили https://squidfunk.github.io/mkdocs-material/creating-your-site/
-* видео https://www.youtube.com/watch?v=Q-YA_dA8C20
-* документация https://www.mkdocs.org/getting-started/
-* расширения https://squidfunk.github.io/mkdocs-material/setup/extensions/
