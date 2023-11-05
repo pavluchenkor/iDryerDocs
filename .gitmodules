@@ -1,9 +1,0 @@
-[submodule "iDryer"]
-	path = iDryer
-	url = https://github.com/pavluchenkor/iDryer.git
-[submodule "iDryerV2/Firmware/iDryerController"]
-	path = iDryerV2/Firmware/iDryerController
-	url = https://github.com/pavluchenkor/iDryerController.git
-[submodule "iDryerV2/Hardware/iDryerProject"]
-	path = iDryerV2/Hardware/iDryerProject
-	url = https://github.com/pavluchenkor/iDryerProject.git
