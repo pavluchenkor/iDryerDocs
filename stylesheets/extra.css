@@ -4,7 +4,7 @@ body {
   background-color: var(--md-default-bg-color);
   display: flex;
   flex-direction: column;
-  font-size: .5rem;
+  font-size: 0.8rem; /* .5 */
   min-height: 100%;
   position: relative;
   width: 100%
@@ -99,5 +99,20 @@ body {
   }
   .md-content__inner {
     text-align: justify !important;
+  } 
+  .md-tabs__link {  /* Меню */
+    font-size: 110%; 
+  } 
+  .md-ellipsis{  /* Боковое меню */
+    font-size: 110%; 
+  } 
+  .md-nav__title{  /* Боковое меню правое */
+    font-size: 110%; 
+  } 
+  .md-nav__link{  /* Боковое меню правое */
+    font-size: 110%; 
+  } 
+  .admonition-title{  /* Боковое меню правое */
+    font-size: 120%; 
   } 
 }
