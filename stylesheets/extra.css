@@ -101,12 +101,12 @@ body {
     text-align: justify !important;
   } 
   .md-tabs__link {  /* Меню */
-    font-size: 110%; 
+    font-size: 100%; 
   } 
   .md-ellipsis{  /* Боковое меню */
     font-size: 110%; 
   } 
-  .md-nav__title{  /* Боковое меню правое */
+  .md-nav__title{  /* Боковое меню правое Заголовок*/
     font-size: 110%; 
   } 
   .md-nav__link{  /* Боковое меню правое */
@@ -115,4 +115,10 @@ body {
   .admonition-title{  /* Боковое меню правое */
     font-size: 120%; 
   } 
+  .md-typeset{  /* Весь текст */
+    font-size: 110%; 
+  } 
+  .md-typeset .admonition,.md-typeset details {
+    font-size: .8rem;
+  }
 }
