@@ -4,7 +4,8 @@ body {
   background-color: var(--md-default-bg-color);
   display: flex;
   flex-direction: column;
-  font-size: 0.8rem; /* .5 */
+  font-size: 0.8rem;
+  /* .5 */
   min-height: 100%;
   position: relative;
   width: 100%
@@ -97,28 +98,105 @@ body {
     height: 100%;
     border: 0;
   }
+
   .md-content__inner {
-    text-align: justify !important;
-  } 
-  .md-tabs__link {  /* Меню */
-    font-size: 100%; 
-  } 
-  .md-ellipsis{  /* Боковое меню */
-    font-size: 110%; 
-  } 
-  .md-nav__title{  /* Боковое меню правое Заголовок*/
-    font-size: 110%; 
-  } 
-  .md-nav__link{  /* Боковое меню правое */
-    font-size: 110%; 
-  } 
-  .admonition-title{  /* Боковое меню правое */
-    font-size: 120%; 
-  } 
-  .md-typeset{  /* Весь текст */
-    font-size: 110%; 
-  } 
-  .md-typeset .admonition,.md-typeset details {
-    font-size: .8rem;
+    /* text-align: justify !important; */
   }
+
+  .md-tabs__link {
+    /* Меню */
+    font-size: 100%;
+  }
+
+  .md-ellipsis {
+    /* Боковое меню */
+    font-size: 110%;
+  }
+
+  .md-nav__title {
+    /* Боковое меню правое Заголовок*/
+    font-size: 110%;
+  }
+
+  .md-nav__link {
+    /* Боковое меню правое */
+    font-size: 110%;
+  }
+
+  .admonition-title {
+    /* Заголовок quote annotate */
+    font-size: 100%;
+  }
+
+  .md-typeset {
+    /* Весь текст */
+    font-size: 110%;
+  }
+
+  .md-typeset .admonition,
+  .md-typeset details {
+    font-size: 100%;
+  }
+
+  .md-typeset table:not([class]) {
+    font-size: 100%;
+  }
+
+
+  /* Общий стиль для контейнера изображений */
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  /* Стиль для каждой из двух фотографий */
+  .image-container img {
+    width: calc(100%);
+    /* 50% ширины с отступом между фото */
+    margin-bottom: 10px;
+    /* Отступ между фотографиями */
+    box-sizing: border-box;
+    /* Учесть границы и отступы внутри элемента */
+  }
+
+/* Стиль для каждой из фотографий с классом .custom-image */
+.custom-image {
+  flex: 1;
+  box-sizing: border-box;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.custom-image img {
+  width: 97%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+/* Медиа-запрос для узких экранов (например, мобильных устройств) */
+@media (max-width: 767px) {
+  .image-container {
+    flex-direction: column; /* Расположение в столбик на узких экранах */
+  }
+}
+
+  /* Стиль для текста под изображениями */
+.text-below-images {
+  width: 100%;
+  margin-top: 20px;
+  clear: both;
+}
+/* Стиль для текста под изображением */
+.custom-image p {
+  margin-top: auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 }

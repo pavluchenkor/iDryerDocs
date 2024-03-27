@@ -1,0 +1,6 @@
+<a href="{{ item.1 }}" class="md-nav__link">
+  {% if item[0] and item[0].startswith('fab ') %}
+    <i class="{{ item[0] }}"></i>
+  {% endif %}
+  {{ item[0].split(' ', 1)[1] }}
+</a>
